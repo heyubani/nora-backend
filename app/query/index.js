@@ -1,7 +1,7 @@
 export default {
   addBeads: `
       INSERT INTO nora_beads(
-        categories,
+        category,
         name,
         color,
         status,

@@ -4,10 +4,10 @@ import query from '../query';
 
 export const addBeads = async (d) => {
   const payload = [
-    d.categories,
+    d.category,
     d.name,
     d.color,
-    d.status,
+    'in stock',
     d.price,
     d.image_url,
     d.quantity,

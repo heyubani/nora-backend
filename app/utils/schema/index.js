@@ -1,10 +1,9 @@
 const Joi = require('joi').extend(require('@joi/date'));
 
 const addBeads = Joi.object().keys({
-  categories: Joi.string().required(),
+  category: Joi.string().required(),
   name: Joi.string().required(),
   color: Joi.string().optional(),
-  status: Joi.string().required(),
   price: Joi.number().required(),
   image_url: Joi.string().required(),
   quantity: Joi.number().required(),
